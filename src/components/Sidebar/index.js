@@ -7,6 +7,7 @@ import { faHome, faEnvelope, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faItchIo, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
+
     <div className="nav-bar">
         <Link className="logo" to="/">
             <img src={LogoG} alt="logo" />

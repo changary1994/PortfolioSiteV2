@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 import LogoTitle from '../../assets/images/logo-g2.png';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
-import Logo from './Logo';
+/* import Logo from './Logo'; */
+import Snowfall from 'react-snowfall';
+import Loader from 'react-loaders';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -19,7 +21,9 @@ const Home = () => {
     }, [])
 
     return (
+        <>
         <div className="container home-page">
+            <Snowfall />
             <div className="text-zone">
                 <h1>
                 <span className={letterClass}>H</span>
@@ -41,8 +45,10 @@ const Home = () => {
                 <h2>JavaScript / Java / C#</h2>
                 <Link to="/contact" className='flat-button'> CONTACT ME</Link>
             </div>
-            <Logo />
+            {/* <Logo /> */}
         </div>
+        <Loader type="ball-pulse-sync"/>
+        </>
     )
 }
 
