@@ -42,7 +42,7 @@ const Home = () => {
                 idx = {18}
                 /> 
                 </h1>
-                <h2>JavaScript / Java / C#</h2>
+                <h2>JavaScript / CSS / Java / C#</h2>
                 <Link to="/contact" className='flat-button'> CONTACT ME</Link>
             </div>
             {/* <Logo /> */}
