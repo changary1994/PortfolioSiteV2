@@ -3,7 +3,7 @@ import './index.scss'
 import LogoG from "../../assets/images/logo-g.png"
 import LogoSubtitle from "../../assets/images/logo_sub.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faEnvelope, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faEnvelope, faUser, faBriefcase, faBook } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faItchIo, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
@@ -15,14 +15,20 @@ const Sidebar = () => (
         </Link>
 
         <nav>
-            <NavLink exact="true" activeclassname="active" to="/">
+            <NavLink exact={true} activeclassname="active" className="home-link" to="/" end>
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
             </NavLink>
+            <NavLink exact="true" activeclassname="active" className="portfolio-link" to="/portfolio">
+                <FontAwesomeIcon icon={faBriefcase} color="#4d4d4e" />
+            </NavLink>
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+            </NavLink>
+            <NavLink exact="true" activeclassname="active" className="homework-link" to="/homework">
+                <FontAwesomeIcon icon={faBook} color="#4d4d4e" />
             </NavLink>
         </nav>
         <ul>
