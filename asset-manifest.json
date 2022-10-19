@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3e59981.css",
-    "main.js": "/static/js/main.d75c4308.js",
+    "main.css": "/static/css/main.aabe3f6d.css",
+    "main.js": "/static/js/main.a2d56366.js",
     "static/js/787.4c51b762.chunk.js": "/static/js/787.4c51b762.chunk.js",
     "static/media/ProjectButterfly.png": "/static/media/ProjectButterfly.6ec54ee9c902ab85dcdf.png",
     "static/media/ProjectPokemonEncounter.png": "/static/media/ProjectPokemonEncounter.acd2a22a26463f2f025a.png",
@@ -13,12 +13,12 @@
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.b3e59981.css.map": "/static/css/main.b3e59981.css.map",
-    "main.d75c4308.js.map": "/static/js/main.d75c4308.js.map",
+    "main.aabe3f6d.css.map": "/static/css/main.aabe3f6d.css.map",
+    "main.a2d56366.js.map": "/static/js/main.a2d56366.js.map",
     "787.4c51b762.chunk.js.map": "/static/js/787.4c51b762.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3e59981.css",
-    "static/js/main.d75c4308.js"
+    "static/css/main.aabe3f6d.css",
+    "static/js/main.a2d56366.js"
   ]
 }
