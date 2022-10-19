@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio-site-2",
-  "homepage": "https://garychan.me",
   "version": "0.1.0",
+  "homepage": "https://garychan.me",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
