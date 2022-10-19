@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.32ef2738.css",
-    "main.js": "/static/js/main.a2d56366.js",
+    "main.css": "/static/css/main.0912e6b6.css",
+    "main.js": "/static/js/main.c3e376e0.js",
     "static/js/787.4c51b762.chunk.js": "/static/js/787.4c51b762.chunk.js",
+    "static/media/Josh.jpg": "/static/media/Josh.bb4002a8fc19e6b5c77b.jpg",
     "static/media/ProjectButterfly.png": "/static/media/ProjectButterfly.6ec54ee9c902ab85dcdf.png",
     "static/media/ProjectPokemonEncounter.png": "/static/media/ProjectPokemonEncounter.acd2a22a26463f2f025a.png",
+    "static/media/Daniel.jpg": "/static/media/Daniel.f9e06bd77e4926bb9249.jpg",
+    "static/media/SuzPhoebe.jpg": "/static/media/SuzPhoebe.55a6291b2700cb37753a.jpg",
     "static/media/ProjectPrittle.png": "/static/media/ProjectPrittle.405e729051142d03b10a.png",
+    "static/media/Family.jpg": "/static/media/Family.6cd14fb8b11067e6072e.jpg",
     "static/media/logo_sub.png": "/static/media/logo_sub.3b5e5661ff7e01267d66.png",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/logo-g.png": "/static/media/logo-g.0143bc0d38219b93fa8e.png",
@@ -13,12 +17,12 @@
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.32ef2738.css.map": "/static/css/main.32ef2738.css.map",
-    "main.a2d56366.js.map": "/static/js/main.a2d56366.js.map",
+    "main.0912e6b6.css.map": "/static/css/main.0912e6b6.css.map",
+    "main.c3e376e0.js.map": "/static/js/main.c3e376e0.js.map",
     "787.4c51b762.chunk.js.map": "/static/js/787.4c51b762.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32ef2738.css",
-    "static/js/main.a2d56366.js"
+    "static/css/main.0912e6b6.css",
+    "static/js/main.c3e376e0.js"
   ]
 }
