@@ -27,7 +27,6 @@ const Portfolio = () => {
     return (
         <>
             <div className='container portfolio-page'>
-                <Snowfall />
                 <div className='text-zone'>
                     <h1>
                         <AnimatedLetters

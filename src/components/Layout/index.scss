@@ -2,6 +2,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    
 }
 
 .container{
@@ -18,6 +19,7 @@
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
+    overflow-y: scroll;
 }
 
 .about-page,
@@ -31,6 +33,7 @@
         vertical-align: middle;
         display: table-cell;
         max-height: 90%;
+        
 
         h1{
             font-size: 53px;
@@ -68,5 +71,118 @@
             color: white;
         }
     }
+
+}
+
+.portfolio-page,
+.homework-page {
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 10%;
+        transform: translateY(-50%);
+        width: 70%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
+
+        h1 {
+            font-size: 53px;
+            font-family: 'Coolvetica';
+            color: #3BBA9C;
+            font-weight: 400;
+            margin-top: 0;
+            left: 40px;
+            position: relative;
+            margin-bottom: 0px;
+        }
+
+        h2 {
+            font-size: 35px;
+            font-family: 'Coolvetica';
+            color: #3BBA9C;
+            font-weight: 400;
+            margin-top: 0;
+            position: relative;
+            margin-bottom: 20px;
+
+        }
+
+        a {
+            font-size: 15px;
+            color: #3BBA9C;
+            text-decoration: underline;
+        }
+
+    }
+
+    ul {
+        list-style: none;
+        position: absolute;
+    }
+
+    .projectImage {
+        float: left;
+        clear: left;
+        margin: 0 20px 0 0;
+        width: 250px;
+        height: auto;
+    }
+
+
+
+    li {
+        padding: 40px 0px;
+        margin-top: 50px;
+        opacity: 0;
+        animation: fadeInUp 2s 2s;
+        animation-fill-mode: forwards;
+        clear:both;
+
+    }
+
+
+    #firstP {
+        font-size: 15px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 300;
+        min-width: fit-content;
+        animation: pulse 1s;
+        animation-delay: 3.1s;
+    }
+
+
+
+    #secondP {
+        font-size: 15px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 300;
+        min-width: fit-content;
+        animation: pulse 1s;
+        animation-delay: 3.2s;
+    }
+
+
+
+    #thirdP {
+        font-size: 15px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 300;
+        min-width: fit-content;
+        animation: pulse 1s;
+        animation-delay: 3.3s;
+    }
+
+
+
+    .text-animate-hover {
+        &:hover {
+            color: white;
+        }
+    }
+
 
 }
