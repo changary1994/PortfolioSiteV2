@@ -16,8 +16,5 @@ jobs:
       run: npm install
 
     - name: Deploy
-      run: |
-        git config --global user.name 'Gary Chan'
-        git config --global user.email 'changary1994@gmail.com'
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}    
+      run: |   
         npm run deploy
