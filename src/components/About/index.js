@@ -27,7 +27,7 @@ const About = () => {
                         idx={15}
                         />
                 </h1>
-                <p>I am a former full time civilian employee of the NYPD who is looking to pivot into a career in Software Engineer or Game Programming. As I approach my graduation with a B.A. from Brooklyn College in Computer Science, I am seeking an internship or junior/associate position in the field that will allow me to nurture skills and gain experience that I can use to continue to enrich the lives of others. I hope to find myself a part of a friendly and positive environment that shares my love for coding, diversity, and community.</p>
+                <p>I am a senior CS student who is looking to start his career in Software Engineering or Game Programming. As I approach my graduation with a B.S. from Brooklyn College in Computer Science, I am seeking an internship or junior/associate position in the field that will allow me to nurture skills and gain experience that I can use to continue to enrich the lives of others. I hope to find myself a part of a friendly and positive environment that shares my love for coding, diversity, and community.</p>
             </div>
 
             <div className='stage-cube-cont'>
