@@ -27,7 +27,7 @@ const Homework = () => {
                             idx={15}
                         />
                     </h1>
-                    <p>This page is to provide links to homework assignments for CISC 3610 with Professor Goetz. If you are a recruiter, employer, or Jeff Bezos, please turn back now.</p>
+                    <p id="firstP">This page is to provide links to homework assignments for CISC 3610 with Professor Goetz. If you are a recruiter, employer, or Jeff Bezos, please turn back now.</p>
                 </div>
             </div>
         </>
