@@ -5,7 +5,7 @@
         left: 10%;
         top: 50%;
         transform: translateY(-50%);
-        width: 40%;
+        width: 20%;
         max-height: 90%;
     }
 
@@ -58,4 +58,92 @@
         }
     }
 
+}
+
+.photo-container{
+    width: 70%;
+    height: 100%;
+    top: 0;
+    padding-top: 20%;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+
+    .photoImage{
+        width: 100%;
+        height: auto;
+    }
+    
+    
+}
+
+.photo-zone{
+
+    margin-left: calc(50% - 100px);
+
+    div{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border: 1px solid #ccc;
+        background: rgba(255, 255, 255, 0.4);
+        text-align: center;
+        font-size: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 20px 0px lightyellow;
+    }
+
+    p{
+            font-size: 15px;
+            margin-left: (-2%);
+            margin-top: (5%);
+            position: absolute;
+            color: white;
+            font-family: sans-serif;
+            font-weight: 300;
+            min-width: fit-content;
+            opacity: 0;
+            animation: fadeIn 2s;
+            animation-fill-mode: forwards;
+            animation-delay: 5s;
+    }
+}
+
+.face1{
+    transform: translateY(-200%);
+    opacity: 0;
+    animation: fadeIn;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-delay: 6s;
+}
+
+.face2{
+    transform: translateY(200%);
+    opacity: 0;
+    animation: fadeIn;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-delay: 7s;
+}
+
+.face3{
+    transform: translateX(200%);
+    opacity: 0;
+    animation: fadeIn;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-delay: 8s;
+}
+
+.face4{
+    transform: translateX(-200%);
+    opacity: 0;
+    animation: fadeIn;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-delay: 9s;
 }

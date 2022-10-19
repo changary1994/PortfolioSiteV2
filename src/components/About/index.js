@@ -32,6 +32,7 @@ const About = () => {
 
             <div className='stage-cube-cont'>
                 <div className='cubespinner'>
+                    {/* HTML first, React second, Unity third, JS fourth */}
                     <div className='face1'>
                         <FontAwesomeIcon icon ={faHtml5} color="#F06529" />
                     </div>
