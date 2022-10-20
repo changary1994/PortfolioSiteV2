@@ -61,14 +61,17 @@
 }
 
 .photo-container{
-    width: 70%;
+    width: 50%;
     height: 100%;
-    top: 0;
+    top: -5%;
+    bottom: -35%;
+    left: 40%;
+    right: 5%;
     padding-top: 20%;
-    margin-left: 0;
+    margin: auto;
     position: absolute;
-    right: 0;
     overflow: hidden;
+    display: flex;
 
     .photoImage{
         width: 100%;
@@ -98,8 +101,8 @@
 
     p{
             font-size: 15px;
-            margin-left: (-2%);
-            margin-top: (5%);
+            margin-left: (-4%);
+            margin-top: (10%);
             position: absolute;
             color: white;
             font-family: sans-serif;
@@ -112,7 +115,7 @@
     }
 }
 
-.face1{
+.photo1{
     transform: translateY(-150%);
     opacity: 0;
     animation: fadeIn;
@@ -121,7 +124,7 @@
     animation-delay: 6s;
 }
 
-.face2{
+.photo2{
     transform: translateY(150%);
     opacity: 0;
     animation: fadeIn;
@@ -130,7 +133,7 @@
     animation-delay: 7s;
 }
 
-.face3{
+.photo3{
     transform: translateX(150%);
     opacity: 0;
     animation: fadeIn;
@@ -139,7 +142,7 @@
     animation-delay: 9s;
 }
 
-.face4{
+.photo4{
     transform: translateX(-150%);
     opacity: 0;
     animation: fadeIn;

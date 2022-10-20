@@ -103,9 +103,9 @@
             font-family: 'Coolvetica';
             color: #3BBA9C;
             font-weight: 400;
-            margin-top: 0;
+            margin-top: -15px;
             position: relative;
-            margin-bottom: 20px;
+            margin-bottom: -5px;
 
         }
 
@@ -133,8 +133,29 @@
         margin: 0 20px 0 0;
         width: 250px;
         height: auto;
+        opacity: 0;
     }
 
+    #firstImg{
+        animation: fadeInLeft 2s 2s;
+        animation-fill-mode: forwards;
+        clear: both;
+        animation-delay: 3.1s;
+    }
+
+    #secondImg{
+        animation: fadeInLeft 2s 2s;
+        animation-fill-mode: forwards;
+        clear: both;
+        animation-delay: 3.2s;
+    }
+
+    #thirdImg{
+        animation: fadeInLeft 2s 2s;
+        animation-fill-mode: forwards;
+        clear: both;
+        animation-delay: 3.3s;
+    }
 
 
     li {
@@ -143,7 +164,7 @@
         opacity: 0;
         animation: fadeInUp 2s 2s;
         animation-fill-mode: forwards;
-        clear:both;
+        clear: both;
 
     }
 
@@ -156,6 +177,7 @@
         min-width: fit-content;
         animation: pulse 1s;
         animation-delay: 3.1s;
+        
     }
 
 

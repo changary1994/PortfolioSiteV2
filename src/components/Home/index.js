@@ -27,7 +27,6 @@ const Home = () => {
     return (
         <>
             <div className="container home-page">
-                <Snowfall />
                 <div className="text-zone">
                     <h1>
                         <span className={letterClass}>H</span>
@@ -54,16 +53,16 @@ const Home = () => {
                         
                         <p> These are the people who motivate me.</p>
                         
-                        <div className='face1'>
+                        <div className='photo1'>
                             <img className='photoImage' src={Josh} alt="Project Butterfly"></img>
                         </div>
-                        <div className='face2'>
+                        <div className='photo2'>
                             <img className='photoImage' src={Family} alt="Project Butterfly"></img>
                         </div>
-                        <div className='face3'>
+                        <div className='photo3'>
                             <img className='photoImage' src={SuzPhoebe} alt="Project Butterfly"></img>
                         </div>
-                        <div className='face4'>
+                        <div className='photo4'>
                             <img className='photoImage' src={Daniel} alt="Project Butterfly"></img>
                         </div>
                     </div>
@@ -71,6 +70,7 @@ const Home = () => {
                 {/* <Logo /> */}
             </div>
             <Loader type="ball-pulse-sync" />
+            <Snowfall />
         </>
     )
 }
