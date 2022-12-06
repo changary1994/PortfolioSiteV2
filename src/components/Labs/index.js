@@ -30,7 +30,7 @@ const Labs = () => {
                     <p id="firstP">This page is to provide links to lab assignments for CISC 3610 with Professor Goetz. If you are a recruiter, employer, or Jeff Bezos, please turn back now.</p>
                     <ul>
                         <li>
-                            <a href="https://changary1994.github.io/CartoonHW/">JSON Lab</a>  
+                            <a href="https://changary1994.github.io/JSONLab/">JSON Lab</a>  
                         </li>
                         <li>
                             <a href="https://changary1994.github.io/CartoonHW/">Audio Lab</a>  
