@@ -28,6 +28,34 @@ const Homework = () => {
                         />
                     </h1>
                     <p id="firstP">This page is to provide links to homework assignments for CISC 3610 with Professor Goetz. If you are a recruiter, employer, or Jeff Bezos, please turn back now.</p>
+                    <ul>
+                        <li>
+                            <a href="https://changary1994.github.io/CartoonHW/">Cartoon Drawing</a>
+                        </li>
+                        <li>
+                            <a href="https://changary1994.github.io/CartoonHW/">Animation</a>
+                        </li>
+                        <li>
+
+                            <a href="https://changary1994.github.io/CartoonHW/">Text Form</a>
+                        </li>
+                        <li>
+
+                            <a href="https://changary1994.github.io/CartoonHW/">Speech Recognition</a>
+                        </li>
+                        <li>
+
+                            <a href="https://changary1994.github.io/CartoonHW/">Data Visualization</a>
+                        </li>
+                        <li>
+
+                            <a href="https://changary1994.github.io/CartoonHW/">Video Animation</a>
+                        </li>
+                        <li>
+
+                            <a href="https://changary1994.github.io/CartoonHW/">Drag and Drop</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </>

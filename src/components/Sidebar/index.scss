@@ -103,6 +103,12 @@
             }
         }
 
+        a.labs-link{
+            &:after{
+                content: 'LABS';
+            }
+        }
+
         a.active{
             svg{
                 color: #3BBA9C;
