@@ -33,7 +33,7 @@ const Homework = () => {
                             <a href="https://changary1994.github.io/CartoonHW/">Cartoon Drawing</a>
                         </li>
                         <li>
-                            <a href="https://changary1994.github.io/CartoonHW/">Animation</a>
+                            <p>Animation HW - For this assignment, I implemented the spinning cube in my About page using the techniques taught in class. I used @keyframes in CSS, and using imported images, move their position over the course of the animation, which will reset and loop endlessly. </p>
                         </li>
                         <li>
 
