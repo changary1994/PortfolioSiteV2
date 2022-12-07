@@ -38,7 +38,7 @@ const Homework = () => {
                         </li>
                         <li>
                             <p>
-                            <a href="https://changary1994.github.io/CartoonHW/">Text Form</a>
+                            <a href="https://changary1994.github.io/FormsHW/">Text Form</a>
                             </p>
                         </li>
                         <li>
