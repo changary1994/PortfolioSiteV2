@@ -43,7 +43,7 @@ const Homework = () => {
                         </li>
                         <li>
                             <p>
-                            <a href="https://changary1994.github.io/CartoonHW/">Speech Recognition</a>
+                            <a href="https://changary1994.github.io/Speech-Recognition-HW/">Speech Recognition</a>
                             </p>
                         </li>
                         <li>
