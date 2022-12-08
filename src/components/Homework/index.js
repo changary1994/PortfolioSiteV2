@@ -48,7 +48,7 @@ const Homework = () => {
                         </li>
                         <li>
                             <p>
-                            <a href="https://changary1994.github.io/CartoonHW/">Data Visualization</a>
+                            <a href="https://changary1994.github.io/DataVisualization/">Data Visualization</a>
                             </p>
                         </li>
                         <li>
