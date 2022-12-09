@@ -53,7 +53,7 @@ const Homework = () => {
                         </li>
                         <li>
                             <p>
-                            <a href="https://changary1994.github.io/CartoonHW/">Video Animation</a>
+                            <a href="https://changary1994.github.io/AnimationHW/">Video Animation</a>
                             </p>
                         </li>
                         <li>
