@@ -36,7 +36,7 @@ const Labs = () => {
                             <a href="https://changary1994.github.io/AudioLab/">Audio Lab</a>  
                         </li>
                         <li>
-                            <p>Resume Lab - You're looking at it!</p>
+                            <p id="firstP">Resume Lab - You're looking at it!</p>
                         </li>
                     </ul>
                 </div>
