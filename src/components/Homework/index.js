@@ -56,11 +56,6 @@ const Homework = () => {
                             <a href="https://changary1994.github.io/AnimationHW/">Video Animation</a>
                             </p>
                         </li>
-                        <li>
-                            <p>
-                            <a href="https://changary1994.github.io/CartoonHW/">Drag and Drop</a>
-                            </p>
-                        </li>
                     </ul>
                 </div>
             </div>
