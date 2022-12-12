@@ -38,21 +38,6 @@ const Portfolio = () => {
                     <ul>
                         <li>
 
-                            <img id="firstImg" className='projectImage' src={Prittle} alt="Project Prittle"></img>
-
-                            <h2>
-                                <AnimatedLetters
-                                    letterClass={letterClass}
-                                    strArray={proj1Array}
-                                    idx={30}
-                                />
-                            </h2>
-                            <p id="firstP"> Project Prittle is my capstone project for my Computer Science degree. It is a social media CRUD application where users can share an image or text post of the little things they are proud of accomplishing for the day. It is a work in progress as I will be graduating in December, and I hope to be able to share it with you soon!</p>
-
-                            <a className='endLink' href="https://github.com/changary1994/ProjectPrittle.git"> GitHub Link</a>
-                        </li>
-                        <li>
-
                             <img id="secondImg"className='projectImage' src={Butterfly} alt="Project Butterfly"></img>
 
                             <h2>
